@@ -1,0 +1,21 @@
+.main-card {
+  background: rgba(139, 146, 214, 0.7);
+  border-radius: 34px;
+  max-width: 750px;
+  max-height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  &-title {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  img{
+      padding: 20px 100px;
+      padding-bottom: 50px;
+  }
+}
