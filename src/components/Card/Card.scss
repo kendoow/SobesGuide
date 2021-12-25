@@ -6,7 +6,12 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  transition: 0.2s;
   cursor: pointer;
+  &:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+  }
   &-title {
     font-weight: 500;
     font-size: 40px;

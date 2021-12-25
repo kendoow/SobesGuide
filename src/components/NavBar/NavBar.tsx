@@ -6,7 +6,7 @@ const NavBar:FC = () => {
         <header>
             <div className="container">
                 <div className="logo">
-                   <span>✱</span> SOBLIB
+                   <span>✱</span> SOBLIB 
                 </div>
             </div>
         </header>
