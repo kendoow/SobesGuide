@@ -4,9 +4,9 @@ import {Footer, MainSection, NavBar} from '../components'
 const MainPage: FC = () => {
     return (
         <>
-            <NavBar/>
+            <NavBar url = {"/"} black = {true}/>
             <MainSection/>
-            <Footer/>
+            <Footer black={true}/>
         </>
     )
 }

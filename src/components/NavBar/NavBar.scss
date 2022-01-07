@@ -1,15 +1,17 @@
-@import "../../variables.scss";
+@import '../../scss/_variables.scss';
 header{
+  background-color: $black;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 .logo {
+  color: $black;
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
   display: flex;
   align-items: center;
-
+  
   span{
     display: flex;
     margin-bottom: 9px;

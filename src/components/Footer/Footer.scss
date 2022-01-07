@@ -1,21 +1,25 @@
+@import '../../scss/_variables.scss';
 .footer {
-  background: #a2b1da;
+  background: $black;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 100px;
+  color: $white;
   &-logo {
     font-style: normal;
     font-weight: 500;
     font-size: 56px; 
     padding: 15px;   
     padding-bottom: 5px;
+    text-align: center;
   }
   &-text{
+    text-align: center;
     font-weight: 500;
     font-size: 24px;
     line-height: 16px;
     padding: 10px;
   }
 }
+

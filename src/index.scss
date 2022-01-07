@@ -1,5 +1,12 @@
+@import url('./scss/_variables.scss');
+*{
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: "Noto Sans Mono", monospace;
   font-family: "Rubik", sans-serif;
+}
+.flex{
+  display: flex;
 }
